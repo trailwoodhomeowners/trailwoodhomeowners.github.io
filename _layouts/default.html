@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+	<meta name="keywords" content="{{ site.keywords }}">
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
+	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
+</head>
+<body>
+  <header>
+{% capture intext %} {% include header.md %} {% endcapture %}
+{{ intext | markdownify }}
+  </header>
+  <main>
+{{ content }}
+  </main>
+  <footer>
+{% capture intext %} {% include footer.md %} {% endcapture %}
+{{ intext | markdownify }}
+  </footer>
+
+
+</body>
+<script src="{{ site.baseurl }}/assets/javascript/site.js"></script>
+</html>

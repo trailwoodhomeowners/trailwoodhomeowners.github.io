@@ -1,0 +1,78 @@
+---
+
+#####################################################################
+### Local server configuration.
+#####################################################################
+
+port: 4000
+host: localhost
+#permalink: / ## disables post output
+safe: true
+strict_front_matter: true
+timezone: America/Detroit
+
+exclude:
+  - CNAME
+  - README.md
+  - LICENSE
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+
+
+#####################################################################
+### Content configuration.
+#####################################################################
+
+title:       "Trailwood Homeowners Association"
+keywords:    "trailwood, hoa, plymouth, michigan"
+description: "The Trailwood Homeowners Association of Plymouth, Michigan"
+source_link: "https://github.com/trailwoodhomeowners/"
+favicon:     #put a path like: "img/favicon.ico"
+touch_icon:  #put a path like: "img/apple-touch-icon.png"
+google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+
+
+#####################################################################
+### Template colors. Used site-wide via CSS.
+#####################################################################
+
+colors:
+  black:     '#111111'
+  white:     '#f8f8f8'
+  blue:      '#49a7e9'
+  green:     '#9bcf2f'
+  purple:    '#c869bf'
+  orange:    '#fab125'
+  turquoise: '#0fbfcf'
+
+
+#####################################################################
+### Default frontmatter for each scope.
+#####################################################################
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: posts
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: pages
+    values:
+      layout: "default"
+
+
+#####################################################################
+### Source and output file locations
+#####################################################################
+
+source:      .
+destination: ./_build
+
+data_source: ./_data
+layouts_dir: ./_layouts
+plugins_dir: ./_plugins
