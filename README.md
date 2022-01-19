@@ -20,12 +20,12 @@ About Github Pages
 
 The website is served from files located in:
 
-  - [https://github.com/trailwoodhomeowners/trailwoodhomeowners.github.io][2].
+  - [https://github.com/trailwoodhomeowners/trailwoodhomeowners.github.io][2]
   
 It can be reached from either of the following:
 
   - [http://www.trailwoodhomeowners.org][3], or
-  - [https://trailwoodhomeowners.github.io][4].
+  - [https://trailwoodhomeowners.github.io][4]
   
 The latter is the standard means of accessing the project page, however the
 former works because we've set up a domain name and configured GitHub to use the
