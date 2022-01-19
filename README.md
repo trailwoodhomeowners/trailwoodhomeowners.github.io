@@ -24,7 +24,7 @@ The website is served from files located in:
   
 It can be reached from either of the following:
 
-  - [http://www.trailwoodhomeowners.org][3], or
+  - [https://www.trailwoodhomeowners.org][3], or
   - [https://trailwoodhomeowners.github.io][4]
   
 The latter is the standard means of accessing the project page, however the
