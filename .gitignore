@@ -2,3 +2,4 @@ _build/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+.DS_Store
