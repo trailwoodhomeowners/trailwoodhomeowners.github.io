@@ -1,4 +1,6 @@
 ---
+title: By-Laws
+tabID: tab_03
 ---
 
 BY-LAWS OF TRAILWOOD HOA
@@ -25,13 +27,18 @@ ARTICLE II - DEFINITIONS
     Lots 186 through 371 inclusive, Trailwood Subdivision No. 2, of part of
     Section 27, 33 and 34, T. 1 S., R. 8 E., Plymouth Township, Wayne County,
     Michigan, according to the plat thereof as recorded in Liber 95 of Plats,
-    pages 52 through 54 inclusive, Wayne County Records; lots 372 through 561
-    inclusive, Trailwood Subdivision No. 3, of part of the N. E. 1/4 of Section
-    33 and part of the N. W. 1/4 of Section 34, T. 1 S., R. 8 E., Plymouth
-    Township, Wayne County, Michigan, according to the plat thereof as recorded
-    in Liber 97 of Plats, pages 4, 5 and 6, Wayne County Records and 
-    such additions thereto as may hereafter be brought within the jurisdiction
-    of the Association.
+    pages 52 through 54 inclusive, Wayne County Records;
+    
+    and
+    
+    lots 372 through 561 inclusive, Trailwood Subdivision No. 3, of part of the
+    N. E. 1/4 of Section 33 and part of the N. W. 1/4 of Section 34, T. 1 S.,
+    R. 8 E., Plymouth Township, Wayne County, Michigan, according to the plat
+    thereof as recorded in Liber 97 of Plats, pages 4, 5 and 6, Wayne County
+    Records
+    
+    and such additions thereto as may hereafter be brought within the 
+    jurisdiction of the Association.
     
 3. "Common Area" shall mean all real property (including the improvements
    thereto) owned by the Association for the common use and enjoyment of the

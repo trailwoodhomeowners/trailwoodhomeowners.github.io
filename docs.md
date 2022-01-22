@@ -1,5 +1,6 @@
 ---
-navclass: nav_03
+title: Documents
+tabID: nav_03
 ---
 
 {% assign googleDrive    = '<a target="_blank" title="Our Google Drive" href="https://drive.google.com/drive/folders/0Byd7ttCcQ-aQWHdKM1RsQTRnZTA?usp=sharing">Google Drive</a>' %}
@@ -40,23 +41,6 @@ Please read the {{policyDues}}.
 - [Amendments to Open Space Agreement][5]
 - {{ articlesIncorp }}
 - {{ platMaps }}
-
-
-## Trailwood HOA FAQ's
-
-Are Fences Allowed?
-: The Trailwood Association (Trailwood 2 and 3) CC&R’s **do not allow fences** unless a home has an CC&R-approved pool.
-
-
-Are sheds allowed?
-: The Trailwood Association (Trailwood 2 and 3) CC&R’s **do not allow sheds**.
-
-
-Are pools allowed?
-: The Trailwood Association (Trailwood 2 and 3) CC&R’s allow **in-ground pools only**. Above ground and hybrid pools are not permitted.
-
-Are there HOA dues?
-: The Trailwood Association (Trailwood 2 and 3) does collect annual dues and are collected no later than December 31st. There is a substantial late fee beyond this date.
 
 
 ## Related Links

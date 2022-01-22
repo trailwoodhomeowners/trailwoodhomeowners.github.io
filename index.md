@@ -1,13 +1,12 @@
 ---
-title:     "Trailwood - Home"
-category:  index
-navclass:  nav_01
-permalink: /
+title: Trailwood - Home
+tabID: nav_01
 ---
 
 {% assign facebook = '<a target="_blank" title="Facebook link" href="https://www.facebook.com/groups/TrailwoodHA/">Facebook</a>' %}
 {% assign notice2021 = '<a target="_blank" title="Google docs link" href="https://docs.google.com/document/d/11UPwI9g1CoWgUrSSIFFQOat8mokvIyoiaslKsORBEWE/edit?usp=sharing">the Trailwood Association Dues Notice</a>' %}
 {% assign policyDues = '<a target="_blank" title="Collection policy" href="documents/dues-collection-policy.pdf">HOA Dues Collection Policy</a>' %}
+{% assign plymouthImg = '<img src="/assets/images/plymouth-downtown.jpg" alt="Downtown Plymouth">' %}
 
 # Welcome to the Trailwood Homeowners Association!
 
@@ -17,7 +16,11 @@ at [trailwoodhomeowners@gmail.com][1] and we will respond to you as quickly as
 possible. You can also [contact members of the board][2] for specific HOA 
 questions or needs.
 
-![Image of street in Plymouth][3]
+
+<figure>
+  {{plymouthImg}}
+  <figcaption>Streetscape in Downtown Plymouth</figcaption>
+</figure>
 
 
 ## Our Focus
@@ -64,7 +67,5 @@ Reach out to us by [emailing][1] and we will see you at the next monthly board
 meeting.
 
 
-
   [1]: mailto:trailwoodhomeowners@gmail.com "Email the HOA"
   [2]: /contact.html "Individual contacts page"
-  [3]: /assets/images/plymouth-downtown.jpg "Downtown Plymouth"

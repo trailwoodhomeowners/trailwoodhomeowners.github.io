@@ -1,5 +1,6 @@
 ---
-navclass: nav_02
+title: Contact
+tabID: nav_02
 ---
 
 # Contact Us

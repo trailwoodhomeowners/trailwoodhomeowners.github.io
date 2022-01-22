@@ -6,7 +6,7 @@
 
 port: 4000
 host: localhost
-#permalink: / ## disables post output
+permalink: /:categories/:year-:month-:day-:title:output_ext
 safe: true
 strict_front_matter: true
 timezone: America/Detroit
@@ -43,13 +43,13 @@ defaults:
       path: "" # an empty string here means all files in the project
       type: posts
     values:
-      layout: "default"
+      layout: "blog-article"
   -
     scope:
       path: "" # an empty string here means all files in the project
       type: pages
     values:
-      layout: "default"
+      layout: "page"
 
 
 #####################################################################

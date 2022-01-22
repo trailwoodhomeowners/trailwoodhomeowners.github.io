@@ -15,11 +15,11 @@
 {% capture intext %} {% include header.html %} {% endcapture %}
 {{ intext }}
   </header>
-  <nav class="{{page.navclass}}">
+  <nav class="{{page.tabID}}">
 {% capture intext %} {% include navigation.html %} {% endcapture %}
 {{ intext }}
   </nav>
-  <main>
+  <main class="{{layout.main_class | default: 'default'}}">
 {{ content }}
   </main>
   <footer>
@@ -27,7 +27,5 @@
 {{ intext }}
   </footer>
 
-
 </body>
-<script src="{{ site.baseurl }}/assets/javascript/site.js"></script>
 </html>

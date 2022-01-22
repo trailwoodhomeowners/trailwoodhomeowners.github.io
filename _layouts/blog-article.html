@@ -1,0 +1,18 @@
+---
+layout:     default
+main_class: blog-article
+---
+
+<article>
+  {% capture img_path %}/assets{{ page.url | remove:'.html' }}/{% endcapture %}
+  {% if page.icon %}
+    <img alt="{{page.icon_alt}}" title="{{page.icon_title}}" src="{{img_path}}{{page.icon}}">
+  {% elsif page.fa-icon %}
+    <img alt="{{page.icon_alt}}" title="{{page.icon_title}}" src="https://use.fontawesome.com/releases/v5.15.4/svgs/{{page.fa-icon}}.svg" class="trailwoodgreen">
+  {% else %}
+    <img alt="trailwood logo image" title="Trailwood Logo" src="/assets/images/trailwood-stem-logo.png">
+  {% endif %}
+    <h1>{{page.title}}</h1>
+    <span>by <address class="author">{{page.AuthorName}} ({{page.AuthorRole}})</address> on <date>{{page.date | date: "%A, %B %-d, %Y" }}</date></span>
+{{page.content}}
+</article>
