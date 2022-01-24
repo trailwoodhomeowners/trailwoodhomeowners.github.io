@@ -10,10 +10,10 @@ main_class: blog-index
 {% capture id %}{{ post.id | remove:'/' | downcase }}{% endcapture %}
 <article id="{{id}}" class="section p-{{id}}">
   
-  {% capture img_path %}/assets{{ page.url | remove:'.html' }}/{% endcapture %}
-  {% if page.icon %}
+  {% capture img_path %}/assets{{ post.url | remove:'.html' }}/{% endcapture %}
+  {% if post.icon %}
     <img alt="{{post.icon_alt}}" title="{{post.icon_title}}" src="{{img_path}}{{post.icon}}">
-  {% elsif page.fa-icon %}
+  {% elsif post.fa-icon %}
     <img alt="{{post.icon_alt}}" title="{{post.icon_title}}" src="https://use.fontawesome.com/releases/v5.15.4/svgs/{{post.fa-icon}}.svg" class="trailwoodgreen">
   {% else %}
     <img alt="trailwood logo image" title="Trailwood Logo" src="/assets/images/trailwood-stem-logo.png">
