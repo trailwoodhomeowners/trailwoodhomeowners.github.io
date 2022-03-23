@@ -3,7 +3,7 @@ title: Documents
 tabID: nav_03
 ---
 
-{% assign googleDrive    = '<a target="_blank" title="Our Google Drive" href="https://drive.google.com/drive/folders/0Byd7ttCcQ-aQWHdKM1RsQTRnZTA?usp=sharing">Google Drive</a>' %}
+{% assign googleDrive    = '<a target="_blank" title="Our Google Drive" href="https://drive.google.com/drive/folders/0Byd7ttCcQ-aQWHdKM1RsQTRnZTA?resourcekey=0-_WLmllmyEivKzCLfKJ_WAQ&usp=sharing">Google Drive</a>' %}
 {% assign policyDues     = '<a target="_blank" title="Link to Policy Letter" href="documents/dues-collection-policy.pdf">HOA Dues Collection Policy</a>' %}
 {% assign articlesIncorp = '<a target="_blank" title="State of Michigan website" href="https://cofs.lara.state.mi.us/CorpWeb/CorpSearch/CorpSummary.aspx?token=nBxILn58HwVtv4JMRDwTm1cWblopjmzIgq3FCQzRMH7Z0mRAdeXC1AVATkaK0Jzoj5abe/vuGGht50MgU69hLLrTytBpPlyT6nPq9mtBYi09kDVBtFq4KNAd11gwyjNazJnQMPEF7N87R0XxKsXvIeeWtMYoe1O5dZSJzrRNom4qAkGY85SNFw50ZUF3soAj9JyX5G7HeOlGdvPwRJ+xp6Lxsiz20cLTG+UQ+JqrO42XSGOODSF9ZwrllNh0RC9BADssyXtQe/sTCGjZwp44Ouwq1r0AnNrgms9e2kcbqarm4QK1lEctgFfEuwhyMP5GNdLQawdTc55mB8mWFJ0xItjj/Mh8oe0z">Articles of Incorporation</a>' %}
 {% assign platMaps       = '<a target="_blank" title="State of Michigan website" href="https://aca-prod.accela.com/LARA/Default.aspx">Subdivision Plat Maps Search (choose “OLSR”)</a>' %}
