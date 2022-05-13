@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+	<meta name="keywords" content="{{ site.keywords }}">
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/style.css">
+  {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
+	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
+  <link href='https://cdn.jsdelivr.net/npm/fullcalendar/main.css' rel='stylesheet' />
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar/main.js'></script>
+  <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('trailwood_calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'dayGridMonth'
+        });
+        calendar.render();
+      });
+  </script>
+</head>
+<body>
+  <header>
+{% capture intext %} {% include header.html %} {% endcapture %}
+{{ intext }}
+  </header>
+  <nav class="{{page.tabID}}">
+{% capture intext %} {% include navigation.html %} {% endcapture %}
+{{ intext }}
+  </nav>
+  <main class="trailwood_calendar">
+{{ content }}
+  </main>
+  <footer>
+{% capture intext %} {% include footer.html %} {% endcapture %}
+{{ intext }}
+  </footer>
+
+</body>
+</html>

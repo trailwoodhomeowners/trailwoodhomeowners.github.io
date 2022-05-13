@@ -201,7 +201,7 @@ main {
     border-bottom: 1px solid $table_lines;
   }
 
-  table {
+  &.main table {
     font-size: 0.9em;
     margin: auto;
     border: 1px solid $table_lines;

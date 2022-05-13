@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+	<meta name="keywords" content="{{ site.keywords }}">
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/style.css">
+  {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
+	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
+  <link href='https://cdn.jsdelivr.net/npm/fullcalendar/main.css' rel='stylesheet' />
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar/main.js'></script>
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var calendarEl = document.getElementById('calendar');
+
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+
+        headerToolbar: {
+          left: 'prev,next today',
+          center: 'title',
+          right: 'dayGridMonth,listYear'
+        },
+
+        displayEventTime: true, // don't show the time column in list view
+
+        // THIS KEY WON'T WORK IN PRODUCTION!!!
+        // To make your own Google API key, follow the directions here:
+        // http://fullcalendar.io/docs/google_calendar/
+        googleCalendarApiKey: 'AIzaSyAZdR9T1eKaF1r-ytKg-JJLO4hmCVOMekQ',
+
+        // Trailwood Calendar
+        events: '8bm30l3vcnmnquv0gbdhjvg3po@group.calendar.google.com',
+
+        eventClick: function(arg) {
+          // opens events in a popup window
+          window.open(arg.event.url, 'google-calendar-event', 'width=700,height=600');
+
+          arg.jsEvent.preventDefault() // don't navigate in main tab
+        },
+
+        loading: function(bool) {
+          document.getElementById('loading').style.display =
+            bool ? 'block' : 'none';
+        }
+
+      });
+
+      calendar.render();
+    });
+
+  </script>
+</head>
+<body>
+  <header>
+{% capture intext %} {% include header.html %} {% endcapture %}
+{{ intext }}
+  </header>
+  <nav class="{{page.tabID}}">
+{% capture intext %} {% include navigation.html %} {% endcapture %}
+{{ intext }}
+  </nav>
+  <main class="trailwood_calendar">
+{{ content }}
+  </main>
+  <footer>
+{% capture intext %} {% include footer.html %} {% endcapture %}
+{{ intext }}
+  </footer>
+
+</body>
+</html>
