@@ -41,9 +41,10 @@ the community.
 ## Upcoming Trailwood Events:
 
 Monthly Trailwood HOA Board Meeting
-: In-person meetings are temporarily suspended due to COVID-19, although we are
-  meeting virtually. [Contact us][1] for a virtual meeting invite (we typically
-  use Webex).
+: In-person meetings have largely resumed, although there is not a fixed schedule or venue
+  due to board member availability and available meeting space. All meetings that occur
+  are **open** and it’s a good bet to check our {{facebook}} for meeting times and
+  locations.
 
 Social Events
 : We regularly sponsor neighborhood socials events. Your best bet for learning
