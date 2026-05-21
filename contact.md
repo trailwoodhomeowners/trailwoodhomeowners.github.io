@@ -37,18 +37,19 @@ email above and provide the following information:
 
 ### Officers:
 
-| Role           | Volunteer        | Phone        |
-| ---------------|------------------|--------------|
-| President      | Rob Beier        | 734-335-0762 |
-| Vice President | Jim Derry        | 586-665-0110 |
-| Secretary      | Katie Bushor     | 810-923-5233 |
-| Treasurer      | Natalie Szuba    |              |
+| Role                | Volunteer        | Phone        |
+| ------------------- | ---------------- | ------------ |
+| President           | *Vacant*         |              |
+| Acting President    | Rob Beier        | 734-335-0762 |
+| Vice President      | Jim Derry        | 586-665-0110 |
+| Secretary           | Katie Bushor     | 810-923-5233 |
+| Treasurer           | Natalie Szuba    |              |
 
 
 ### Members at Large:
 
 | Role                   | Volunteer         | Phone        |
-| -----------------------|-------------------|--------------|
+| ---------------------- | ----------------- | ------------ |
 | Commons Maintenance    | Bryan Vandervelde | 734-858-6581 |
 | Dues and Mailbox       | Jim Derry         |              |
 | Status Letter Requests | James Fedewa      |              |
