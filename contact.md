@@ -2,6 +2,9 @@
 title: Contact
 tabID: nav_03
 ---
+# Before You Contact Us
+
+We are an HOA in Plymouth, MI. If your HOA is not in Plymouth, MI, then we are not your HOA. If you choose to contact us anyway, then we _will_ be extraordinarily rude to you.
 
 # Contact Us
 
