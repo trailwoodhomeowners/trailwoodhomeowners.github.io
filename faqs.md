@@ -38,3 +38,6 @@ Some older homes with pools have grandfathered fences due to building code requi
 The Trailwood Association (Trailwood 2 and 3) does collect annual dues and are
 collected no later than December 31st. There is a substantial late fee beyond this date.
 
+## What township ordinances apply to the Commons?
+
+The Commons are property of the homeowners association, _id est_, **your** property, _videlicet_ private property, and as such township rules do not apply. The CC&R's permit the Board to determine rules for use of the Commons.
