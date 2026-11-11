@@ -29,7 +29,7 @@ Covenants are between every property owner, and not just the HOA Board. As such,
 it requires a supermajority of property owners to change the CC&R’s to allow
 prohibited features.
 
-## Then why so some home have fences?
+## Then why do some home have fences?
 
 Some older homes with pools have grandfathered fences due to building code requirements for pools at the time they were constructed. Current Township building codes allow electric covers in lieu of fences, so you can rest assured that no new fences will be constructed.
 
