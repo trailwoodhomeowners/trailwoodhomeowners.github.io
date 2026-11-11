@@ -8,9 +8,7 @@ tabID: nav_05
 
 ## Are fences Allowed?
 
-The Trailwood Association (Trailwood 2 and 3) CC&R’s **do not allow fences**
-unless a home has an CC&R-approved pool.
-
+The Trailwood Association (Trailwood 2 and 3) CC&R’s **do not allow fences**. 
 
 ## Are sheds allowed?
 
@@ -31,8 +29,12 @@ Covenants are between every property owner, and not just the HOA Board. As such,
 it requires a supermajority of property owners to change the CC&R’s to allow
 prohibited features.
 
+## Then why so some home have fences?
+
+Some older homes with pools have grandfathered fences due to building code requirements for pools at the time they were constructed. Current Township building codes allow electric covers in lieu of fences, so you can rest assured that no new fences will be constructed.
 
 ## Are there HOA dues?
 
 The Trailwood Association (Trailwood 2 and 3) does collect annual dues and are
 collected no later than December 31st. There is a substantial late fee beyond this date.
+
